@@ -5,7 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Predavanje 5</title>
 </head>
+<style>
+    h1 {
+        font-family: Arial, sans-serif;
+        color:rgb(200, 16, 16);
+        font-siz:small
+    }
+
+    .opis-predavanja {
+        font-size: 18px;
+        color: green;
+    }
+
+    #priprema {
+        font-weight:bold;
+        color: purple;
+    }
+
+    .kombinacija-stilova, blockquote, ol{
+        font-style: italic;
+        color: green;
+    }
+</style>
 <body>
+    <div>
+        <h1 style="color:red;">Predavanje 5</h1>
+        <h1 class="opis-predavanja">Opis predavanja</h1>
+        <h1 id="priprema">Priprema za kolokvij</h1>
+        <p class="opis-predavanja">Ovo je sadržaj predavanja 5.</p>
+    </div>
     
+    <div>
+        <p>Default paragraph.</p>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+        quote:<blockquote class="kombinacija-stilova">Ovo je citat.</blockquote>
+    </div>
 </body>
 </html>
